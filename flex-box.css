@@ -1,0 +1,36 @@
+
+.item{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: brown;
+    border: 1px solid black;
+    /* display: inline-block; */
+}
+
+#item2{
+    position: sticky;
+    top: 50px;
+    right: 0px;
+    z-index: -1;
+    overflow: scroll;
+}
+
+
+#A{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+}
+#B{
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+}
+.container{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
